@@ -1,0 +1,72 @@
+/* Lists of stories */
+
+.stories-list {
+  margin: 20px 5px;
+}
+
+.stories-list > li {
+  color: gray;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+#stories-loading-msg {
+  font-weight: bold;
+  font-size: 150%;
+  margin: 20px 30px;
+}
+
+
+/* Individual stories */
+
+.story-link {
+  color: black;
+  font-size: 0.85rem;
+  font-weight: normal;
+  margin: 18px 0;
+}
+
+.story-link:hover {
+  text-decoration: none;
+}
+
+.story-author {
+  margin-left: 2em;
+}
+
+.story-user {
+  display: block;
+}
+
+
+.stories-list button {
+  border:none;
+  margin: 18px 0;
+}
+
+.stories-list span {
+  cursor: pointer;
+  color: #b9b9b9;
+  font-size: 10px;
+}
+
+.story-favorite:hover {
+  color:gold;
+}
+
+.story-delete {
+  margin-left:10px;
+}
+
+.story-delete:hover{ 
+  color:red;
+}
+
+.story-empty {
+  color: #b9b9b9;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin:200px 0px;
+}
